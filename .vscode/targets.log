@@ -1,5 +1,4 @@
-make: *** No rule to make target 'all'.  Stop.
-
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # GNU Make 4.3
 # Built for x86_64-redhat-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -7,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Aug 26 08:55:34 2022
+# Make data base, printed on Mon Sep  5 10:37:48 2022
 
 # Variables
 
@@ -83,7 +82,7 @@ SSH_ASKPASS = /usr/bin/ksshaskpass
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/xauth_vGXtva
+XAUTHORITY = /run/user/1000/xauth_tYXenl
 # default
 .LOADED := 
 # default
@@ -102,7 +101,7 @@ define BASH_FUNC_module%%
 }
 endef
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 LESSOPEN = ||/usr/bin/lesspipe.sh %s
 # automatic
@@ -134,7 +133,7 @@ SNAP_REEXEC =
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 7675
+VSCODE_PID = 14766
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
@@ -144,7 +143,7 @@ GDK_CORE_DEVICE_EVENTS = 1
 # environment
 BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # environment
-SESSION_MANAGER = local/unix:@/tmp/.ICE-unix/1768,unix/unix:/tmp/.ICE-unix/1768
+SESSION_MANAGER = local/unix:@/tmp/.ICE-unix/1786,unix/unix:/tmp/.ICE-unix/1786
 # automatic
 *F = $(notdir $*)
 # environment
@@ -199,7 +198,7 @@ LC_TIME = uz_UZ.UTF-8
 # environment
 SNAP = /snap/code/105
 # environment
-INVOCATION_ID = 7b33a639d79e4a2e992cd919a50a0c13
+INVOCATION_ID = b6712bb7b92c443ab954cea6a0ec6f3c
 # environment
 SNAP_REVISION = 105
 # environment
@@ -239,7 +238,7 @@ XDG_VTNR = 1
 # makefile
 .DEFAULT_GOAL := run
 # environment
-SYSTEMD_EXEC_PID = 1789
+SYSTEMD_EXEC_PID = 3681
 # environment
 HISTCONTROL = ignoredups
 # environment
@@ -259,7 +258,7 @@ SNAP_DATA = /var/snap/code/105
 # environment
 SNAP_CONTEXT = JH7JkEd5a-N-_z-U5OJdLJGEjYRV5xoF_ZTLTmHmgSBbdkUORFWh
 # environment
-MANAGERPID = 1580
+MANAGERPID = 1597
 # environment
 QT_WAYLAND_FORCE_DPI = 96
 # environment
@@ -277,7 +276,7 @@ GDK_PIXBUF_MODULE_FILE = /home/aki_jura/snap/code/common/.cache/gdk-pixbuf-loade
 # environment
 GOMODCACHE = /home/aki_jura/golib/pkg/mod
 # environment
-JOURNAL_STREAM = 8:23341
+JOURNAL_STREAM = 8:41159
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -303,6 +302,9 @@ XCURSOR_SIZE = 24
 # environment
 GOPROXY = https://proxy.golang.org,direct
 # default
+ 
+make: *** No rule to make target 'all'.  Stop.
+
 .RECIPEPREFIX := 
 # automatic
 <F = $(notdir $<)
@@ -314,7 +316,6 @@ SUFFIXES :=
 QT_AUTO_SCREEN_SCALE_FACTOR = 0
 # environment
 VSCODE_CLI = 1
- 
 # environment
 ELECTRON_NO_ATTACH_CONSOLE = 1
 # environment
@@ -342,9 +343,9 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 2049, inode 1847210): 7 files, no impossibilities.
+# . (device 2049, inode 1847210): 10 files, no impossibilities.
 
-# 7 files, no impossibilities in 1 directories.
+# 10 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -393,12 +394,12 @@ run:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 14 / storage = 106 B / avg = 7 B
-# current buf: size = 8162 B / used = 106 B / count = 14 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 17 / storage = 125 B / avg = 7 B
+# current buf: size = 8162 B / used = 125 B / count = 17 / avg = 7 B
 
-# strcache performance: lookups = 21 / hit rate = 33%
+# strcache performance: lookups = 24 / hit rate = 29%
 # hash-table stats:
-# Load=14/8192=0%, Rehash=0, Collisions=0/21=0%
-# Finished Make data base on Fri Aug 26 08:55:35 2022
+# Load=17/8192=0%, Rehash=0, Collisions=0/24=0%
+# Finished Make data base on Mon Sep  5 10:37:48 2022
 
  
